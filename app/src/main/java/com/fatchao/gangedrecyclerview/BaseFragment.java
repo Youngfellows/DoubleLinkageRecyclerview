@@ -123,7 +123,7 @@ public abstract class BaseFragment<T extends BasePresenter, V> extends Fragment 
 
     protected abstract T initPresenter();//初始化数据以及请求参数
 
-    protected abstract void getData();
+    protected abstract void getData();//初始化数据
 
 
 
